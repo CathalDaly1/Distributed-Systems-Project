@@ -1,5 +1,24 @@
 <!doctype html>
 <html lang="en">
+    <style>
+        .button {
+          background-color: #4CAF50; /* Green */
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+        .button1 {
+          background-color: white;
+          color: black;
+          border: 2px solid #000FFF;
+        }
+    </style>
     <head>
         <meta charset="UTF-8">
         <title>Sign Up Page</title>
@@ -24,7 +43,7 @@
                 <label>Confirm Password</label>
                 <input type="password" name="ConfirmPassword" required />
             </div>
-            <button type="submit" name="signup" value="signup">Sign Up</button>
+            <button onclick="location.href='login.php'" type="button" class="button button1"><b>Sign up</b></button>
         </form>
          <p>Already have an account <a href='login.php'>Login Here</a></p>
     </body>
